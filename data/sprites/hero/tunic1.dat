@@ -44,11 +44,13 @@ animation{
 animation{
   name = "brandish",
   src_image = "hero/misc.tunic1.png",
+  frame_delay = 130,
+  frame_to_loop_on = 3,
   directions = {
-    { x = 0, y = 0, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21 },
-    { x = 0, y = 0, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21 },
-    { x = 0, y = 0, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21 },
-    { x = 0, y = 0, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21 },
+    { x = 0, y = 0, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 3 },
+    { x = 0, y = 0, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 3 },
+    { x = 0, y = 0, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 3 },
+    { x = 0, y = 0, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 3 },
   },
 }
 animation{
@@ -117,20 +119,20 @@ animation{
   name = "hurt",
   src_image = "hero/misc.tunic1.png",
   directions = {
-    { x = 0, y = 24, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
-    { x = 24, y = 24, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
-    { x = 48, y = 24, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
-    { x = 72, y = 24, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
+    { x = 0, y = 32, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+    { x = 24, y = 32, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+    { x = 48, y = 32, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+    { x = 72, y = 32, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
   },
 }
 animation{
   name = "jumping",
   src_image = "hero/jumping.tunic1.png",
   directions = {
-    { x = 0, y = 0, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
-    { x = 24, y = 0, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
-    { x = 48, y = 0, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
-    { x = 72, y = 0, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
+    { x = 0, y = 0, frame_width = 32, frame_height = 40, origin_x = 16, origin_y = 29 },
+    { x = 32, y = 0, frame_width = 32, frame_height = 40, origin_x = 16, origin_y = 29 },
+    { x = 64, y = 0, frame_width = 32, frame_height = 40, origin_x = 16, origin_y = 29 },
+    { x = 96, y = 0, frame_width = 32, frame_height = 40, origin_x = 16, origin_y = 29 },
   },
 }
 animation{
@@ -188,6 +190,16 @@ animation{
     { x = 0, y = 40, frame_width = 24, frame_height = 40, origin_x = 12, origin_y = 29, num_frames = 8 },
     { x = 0, y = 80, frame_width = 24, frame_height = 40, origin_x = 12, origin_y = 29, num_frames = 4 },
     { x = 0, y = 120, frame_width = 24, frame_height = 40, origin_x = 12, origin_y = 29, num_frames = 8 },
+  },
+}
+animation{
+  name = "shocked",
+  src_image = "hero/misc.tunic1.png",
+  directions = {
+    { x = 0, y = 64, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+    { x = 24, y = 64, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+    { x = 48, y = 64, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+    { x = 72, y = 64, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
   },
 }
 animation{
@@ -333,10 +345,10 @@ animation{
   frame_delay = 100,
   frame_to_loop_on = 0,
   directions = {
-    { x = 192, y = 0, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 3 },
-    { x = 192, y = 32, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 3 },
-    { x = 192, y = 96, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 3 },
-    { x = 192, y = 128, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 3 },
+    { x = 256, y = 0, frame_width = 32, frame_height = 40, origin_x = 12, origin_y = 29, num_frames = 3 },
+    { x = 256, y = 80, frame_width = 32, frame_height = 40, origin_x = 12, origin_y = 29, num_frames = 3 },
+    { x = 256, y = 160, frame_width = 32, frame_height = 40, origin_x = 12, origin_y = 29, num_frames = 3 },
+    { x = 256, y = 240, frame_width = 32, frame_height = 40, origin_x = 12, origin_y = 29, num_frames = 3 },
   },
 }
 animation{
