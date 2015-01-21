@@ -7,3 +7,20 @@ properties{
   music = "same",
 }
 
+tile{
+  layer = 0,
+  x = 152,
+  y = 80,
+  width = 16,
+  height = 16,
+  pattern = "3",
+}
+
+destination{
+  layer = 0,
+  x = 160,
+  y = 117,
+  direction = 3,
+  default = true,
+}
+
