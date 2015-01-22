@@ -1,0 +1,52 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 1024,
+  height = 1024,
+  world = "Hyrule",
+  tileset = "temp",
+  music = "same",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 16,
+  height = 16,
+  pattern = "3",
+}
+
+teletransporter{
+  layer = 0,
+  x = 1024,
+  y = 0,
+  width = 16,
+  height = 1024,
+  transition = "scrolling",
+  destination_map = "Hyrule/A3",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 0,
+  x = -16,
+  y = 0,
+  width = 16,
+  height = 1024,
+  transition = "scrolling",
+  destination_map = "Hyrule/A3",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 0,
+  x = 0,
+  y = 1024,
+  width = 1024,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "Hyrule/B2",
+  destination = "_side",
+}
+

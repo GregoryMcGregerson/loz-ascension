@@ -1,4 +1,23 @@
 map{ id = "debug", description = "debug" }
+map{ id = "Hyrule/A1", description = "Desert - Upper Left" }
+map{ id = "Hyrule/A2", description = "Desert - Upper Right" }
+map{ id = "Hyrule/B1", description = "Desert - Lower Left" }
+map{ id = "Hyrule/B2", description = "Desert - Lower Right" }
+map{ id = "Hyrule/A3", description = "Death Mountain - Upper Left" }
+map{ id = "Hyrule/A4", description = "Death Mountain - Upper Middle" }
+map{ id = "Hyrule/A5", description = "Death Mountain - Upper Right" }
+map{ id = "Hyrule/A6", description = "Burning Forest - Top" }
+map{ id = "Hyrule/A7", description = "Frozen Forest - Upper Left" }
+map{ id = "Hyrule/A8", description = "Frozen Forest - Upper Right" }
+map{ id = "Hyrule/B3", description = "Death Mountain - Lower Left" }
+map{ id = "Hyrule/B4", description = "Death Mountain - Lower Middle" }
+map{ id = "Hyrule/B5", description = "Death Mountain - Lower Right" }
+map{ id = "Hyrule/B6", description = "Burning Forest - Bottom" }
+map{ id = "Hyrule/B7", description = "Frozen Forest - Lower Left" }
+map{ id = "Hyrule/B8", description = "Frozen Forest - Lower Right" }
+map{ id = "Hyrule/F8", description = "Gannon's Fort" }
+map{ id = "Hyrule/F3", description = "Cemetery" }
+map{ id = "Hyrule/G8", description = "Siege Weapons" }
 
 tileset{ id = "temp", description = "temp" }
 
