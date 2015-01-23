@@ -4,6 +4,23 @@ local game = map:get_game()
 
 hero:set_walking_speed(90) -- Add this to very first map to get correct speed.
 
+--[[
+-- weather?
+function map:on_started()
+self.rain_overlay = sol.surface.create("overlays/rain.png")
+self.rain_overlay:set_opacity(128)
+	random_number = math.random(1,100)
+	if random_number > 80 then
+		function map:on_draw(dst_surface)
+		self.rain_overlay:draw(dst_surface)
+		movement_type (straight)
+		movement:start (self.rain_overlay)
+		end
+	end
+
+end
+--]]
+
 function map:on_started()
 
 -- Define colors for Day/Night cycle - Day1

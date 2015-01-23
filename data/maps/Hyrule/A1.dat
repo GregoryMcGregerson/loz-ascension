@@ -10,11 +10,11 @@ properties{
 
 tile{
   layer = 0,
-  x = 0,
+  x = 16,
   y = 0,
   width = 16,
-  height = 16,
-  pattern = "3",
+  height = 80,
+  pattern = "2",
 }
 
 teletransporter{
