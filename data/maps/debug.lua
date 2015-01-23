@@ -496,6 +496,8 @@ map_timer = sol.timer.start(map, 1, function() --1ms is the true value 1000 is f
 		then function map:on_draw(dst_surface)
 					self.day1_dawn05_overlay:draw(dst_surface)
 					game:set_value("time", 10640)
+					sol.audio.play_music("WW_Dawn", function()
+					sol.audio.play_music("MC_Royal_Crypt") end)
 						return true
 							end
 	elseif num_calls == 41666 -- day1_Dawn_6:50AM -- 41666.66666666666
@@ -1361,6 +1363,8 @@ map_timer = sol.timer.start(map, 1, function() --1ms is the true value 1000 is f
 		then function map:on_draw(dst_surface)
 					self.day2_dawn05_overlay:draw(dst_surface)
 					game:set_value("time", 20640)
+					sol.audio.play_music("WW_Dawn", function()
+					sol.audio.play_music("MC_Royal_Crypt") end)
 						return true
 							end
 	elseif num_calls == 1241666 -- day2_Dawn_6:50AM -- 1241666.66666666666
@@ -2226,6 +2230,8 @@ map_timer = sol.timer.start(map, 1, function() --1ms is the true value 1000 is f
 		then function map:on_draw(dst_surface)
 					self.day3_dawn05_overlay:draw(dst_surface)
 					game:set_value("time", 30640)
+					sol.audio.play_music("WW_Dawn", function()
+					sol.audio.play_music("MC_Royal_Crypt") end)
 						return true
 							end
 	elseif num_calls == 2441666 -- day3_Dawn_6:50AM -- 2441666.66666666666
@@ -3091,6 +3097,8 @@ map_timer = sol.timer.start(map, 1, function() --1ms is the true value 1000 is f
 		then function map:on_draw(dst_surface)
 					self.day4_dawn05_overlay:draw(dst_surface)
 					game:set_value("time", 40640)
+					sol.audio.play_music("WW_Dawn", function()
+					sol.audio.play_music("MC_Royal_Crypt") end)
 						return true
 							end
 	elseif num_calls == 3641666 -- day4_Dawn_6:50AM -- 3641666.66666666666
